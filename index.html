@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahi's Portfolio</title>
+    <link rel="icon" type="image/jpeg" href="logoTitle.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="logo">MAHI A RASHED MASHFIK</div>
+        <div class="nav-links">
+            <a href="#home"><i class="fas fa-home" aria-hidden="true"></i> <span>Home</span></a>
+            <a href="#about"><i class="fas fa-user"></i> <span>About Me</span></a>
+            <a href="#journey"><i class="fas fa-road" aria-hidden="true"></i> <span>Academic Journey</span></a>
+            <a href="#projects"><i class="fas fa-project-diagram" aria-hidden="true"></i> <span>Projects</span></a>
+            <a href="#skills"><i class="fas fa-code" aria-hidden="true"></i> <span>Skills</span></a>
+            <a href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i> <span>Contact</span></a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero" aria-labelledby="home-heading">
+        <div class="floating-shapes" aria-hidden="true">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 id="home-heading">Hi, I'm Mahi A Rashed Mashfik</h1>
+                <p>A passionate Computer Science student &amp; Creative Developer from SUST.
+                    A young man eager to fulfill his family's expectations and contribute to his country.
+                </p>
+                <div class="cta-buttons">
+                    <button class="contact-btn" aria-label="Scroll to contact"
+                        onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                        Get in Touch
+                    </button>
+                    <button class="cta-btn" aria-label="Scroll to projects"
+                        onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                        View My Work
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Portrait of Mahi A Rashed Mashfik" class="profile-pic" />
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I’m currently in my 4th semester of undergrad at <strong>Shahjalal University of Science and
+                        Technology</strong>. Driven by curiosity, I love exploring new technologies and turning ideas
+                    into impactful projects. From crafting websites to experimenting with machine learning, I’m on a
+                    journey to find my tech sweet spot.</p>
+                <p>I debug, I fail, I conquer… and repeat. That’s my motto and yes, <strong>learning and exploring tech
+                        is my kind of fun!</strong></p>
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    <span>Available for internships & collaborations</span>
+                </div>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-card">
+                    <h3>7+</h3>
+                    <p>Languages & Frameworks</p>
+                </div>
+                <div class="stat-card">
+                    <h3>10+</h3>
+                    <p>Static Website & Projects Completed</p>
+                </div>
+                <div class="stat-card">
+                    <h3>&#8734;</h3>
+                    <p>Bugs Fixed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="journey" class="section" aria-labelledby="journey-heading">
+        <h2 id="journey-heading">Explore My Academic Journey</h2>
+        <div class="journey-grid">
+            <div class="journey-card" tabindex="0">
+                <h3><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h3>
+                <div class="journey-item">
+                    <h4>BSc in Computer Science &amp; Engineering</h4>
+                    <p>Shahjalal University of Science &amp; Technology (SUST)</p>
+                    <p>2023 - Present</p>
+                    <p>CGPA: 3.51 (upto 3rd Semester)</p>
+                </div>
+                <div class="journey-item">
+                    <h4>Higher Secondary Certificate</h4>
+                    <p>Group: Science</p>
+                    <p>2020 - 2022</p>
+                    <p>GPA: 5.00</p>
+                    <p>Board Merit Scholarship</p>
+                </div>
+                <div class="journey-item">
+                    <h4>Secondary School Certificate</h4>
+                    <p>Group: Science</p>
+                    <p>2018 - 2020</p>
+                    <p>GPA: 5.00</p>
+                </div>
+            </div>
+            <div class="journey-card" tabindex="0">
+                <h3><i class="fas fa-trophy" aria-hidden="true"></i> Projects &amp; Achievements</h3>
+                <div class="journey-item">
+                    <h4>Student Management System</h4>
+                    <p>C++, MySQL - Academic Project</p>
+                </div>
+                <div class="journey-item">
+                    <h4>Obstacle Avoiding Robot</h4>
+                    <p>Arduino, Sensors - Robotics Project</p>
+                </div>
+                <div class="journey-item">
+                    <h4>Grocery Website</h4>
+                    <p>HTML, CSS, JavaScript - Web Development</p>
+                </div>
+                <div class="journey-item">
+                    <h4>Youtube Clone</h4>
+                    <p>Web Dev with API</p>
+                </div>
+            </div>
+            <div class="journey-card" tabindex="0">
+                <h3><i class="fas fa-heart" aria-hidden="true"></i> Hobbies &amp; Interests</h3>
+                <div class="journey-item">
+                    <h4>Coding &amp; Problem Solving</h4>
+                    <p>Irregular practice on online platforms</p>
+                </div>
+                <div class="journey-item">
+                    <h4>Sports (Cricket & Football)</h4>
+                    <p>Love to watching Cricket specially Test cricket</p>
+                </div>
+                <div class="journey-item">
+                    <h4>Web Development</h4>
+                    <p>Creating responsive and interactive websites as well as real world projects</p>
+                </div>
+                <div class="journey-item">
+                    <h4>Learning New Technologies</h4>
+                    <p>Exploring AI, ML and emerging tech trends</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" tabindex="0">
+                <h3>Student Management System</h3>
+                <p>A full featured system built with C++ and MySQL for managing students' academic records and
+                    activities.</p>
+            </div>
+            <div class="project-card" tabindex="0">
+                <h3>Obstacle Avoiding Robot</h3>
+                <p>An Arduino based autonomous robot that detects and avoids obstacles using ultrasonic sensors.</p>
+            </div>
+            <div class="project-card" tabindex="0">
+                <h3>Responsive Grocery Website</h3>
+                <p>A modern website built with HTML, Tailwind CSS and animations optimized for all screen sizes.</p>
+            </div>
+            <div class="project-card" tabindex="0">
+                <h3>API-Based E-commerce Simulation</h3>
+                <p>A web engineering lab project that simulates e-commerce operations among three organisations -
+                    an e-commerce site, a supplier, and a bank - through interconnected REST APIs.
+                    It handles user purchases, bank transactions, and product supply using real time API communication.
+                </p>
+            </div>
+            <div class="project-card" tabindex="0">
+                <h3>Youtube Clone</h3>
+                <p>A responsive video gallery web app built using HTML, CSS and JavaScript.
+                    Features category filters, search functionality and live video cards.</p>
+            </div>
+            <div class="project-card" tabindex="0">
+                <h3>Bangladesh 2.0</h3>
+                <p>A modern responsive webpage showcasing the vision, innovation, and challenges of New Bangladesh.
+                    Built using HTML, CSS and JavaScript - it features sections for innovation, sustainability,
+                    green energy, digital transformation and recent news.</p>
+            </div>
+            <div class="project-card" tabindex="0">
+                <h3>Portfolio Website</h3>
+                <p>This very website - designed to showcase my skills, creativity and achievements beautifully.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills &amp; Technologies</h2>
+        <div class="skills-container">
+            <div class="skill-category" tabindex="0">
+                <h3><i class="fas fa-code" aria-hidden="true"></i> Programming</h3>
+                <div class="skill-items">
+                    <div class="skill-item">C++</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">Python</div>
+                </div>
+            </div>
+            <div class="skill-category" tabindex="0">
+                <h3><i class="fas fa-globe" aria-hidden="true"></i> Web Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item">HTML5</div>
+                    <div class="skill-item">CSS3</div>
+                    <div class="skill-item">Tailwind</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">React</div>
+                </div>
+            </div>
+            <div class="skill-category" tabindex="0">
+                <h3><i class="fas fa-chart-line" aria-hidden="true"></i> Data Science & ML</h3>
+                <div class="skill-items">
+                    <div class="skill-item">Python Libraries</div>
+                    <div class="skill-item">Data Engineering</div>
+                    <div class="skill-item">Data Analysis</div>
+                    <div class="skill-item">Visualization</div>
+                    <div class="skill-item">Algorithm for ML</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info" aria-hidden="false">
+                <div>
+                    <h3>Get In Touch</h3>
+                    <p>Have a question or want to work together? Feel free to reach out!</p>
+
+                    <div class="divider"></div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-user" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Name</h4>
+                                <p>Mahi A Rashed Mashfik</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:mahi.mashfik@gmail.com"
+                                        style="color:inherit; text-decoration: none;">mahi.mashfik@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+880 1521-754254</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Sylhet, Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-social-links" aria-label="Social links">
+                    <a href="mailto:mahiii062@gmail.com" title="Send Email" target="_blank" rel="noopener">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/mahiii062" title="GitHub" target="_blank" rel="noopener">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mahi-a-rashed-mashfik-bb1981283" title="LinkedIn"
+                        target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mash.rash.mahi" title="Facebook" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Wanna Send a Message? Let's go for it!!!</h3>
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Your name" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="your.email@example.com"
+                            required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control" placeholder="What's this about?" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" placeholder="Your message here..."
+                            required></textarea>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Smooth scroll for internal anchors
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                // if href equals "#" or empty, ignore
+                const href = this.getAttribute('href');
+                if (!href || href === '#') return;
+                const target = document.querySelector(href);
+                if (!target) return;
+                e.preventDefault();
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Improved intersection observer animation:
+        const animateOnView = (selector, options = {}) => {
+            const elements = document.querySelectorAll(selector);
+            if (!elements.length) return;
+
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in-view');
+                        obs.unobserve(entry.target); // animate once
+                    }
+                });
+            }, Object.assign({ threshold: 0.15 }, options));
+
+            elements.forEach(el => observer.observe(el));
+        };
+
+        // Use for project, journey and skill category cards
+        animateOnView('.project-card');
+        animateOnView('.journey-card');
+        animateOnView('.skill-category');
+
+        // Contact form submission (demo behavior kept - no server)
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Basic HTML5 validation fallback
+            const form = e.target;
+            if (!form.checkValidity()) {
+                // If browser didn't show built-in validation UI, show a simple message
+                form.reportValidity();
+                return;
+            }
+
+            // Get form values
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            // Demo-only "send" behavior: show alert
+            alert(`Thank you, ${name || 'there'}! Your message has been sent. I'll get back to you soon.`);
+
+            // Reset the form
+            form.reset();
+        });
+
+        // Improve keyboard accessibility: allow Enter on focused project/journey cards to act like click
+        document.querySelectorAll('.project-card, .journey-card, .skill-category').forEach(card => {
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    card.click && card.click();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
