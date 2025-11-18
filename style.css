@@ -872,3 +872,26 @@
         .github-btn:hover {
             background: #0083b0;
         }
+
+        .copyright-footer {
+            background-color: #08082c;
+            padding: 20px 0;
+            text-align: center;
+            border-top: 1px solid #08082c;
+            color: #95bdde;
+            font-size: 0.9rem;
+        }
+
+        .copyright-footer .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .platforms-text {
+            margin: 14px 0 4px;
+            text-align: center;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 1rem;
+        }
